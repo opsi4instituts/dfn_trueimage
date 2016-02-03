@@ -1,0 +1,42 @@
+[Package]
+version: 1
+depends: 
+incremental: False
+
+[Product]
+type: netboot
+id: dfn_trueimage
+name: Acronis True Image
+description: Proprietaere Disk Imaging und Cloning-Software
+advice: 
+version: 2015
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: none
+uninstallScript: 
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+pxeConfigTemplate: trueimage
+
+[Changelog]
+desinfect (2015-1) stable; urgency=low
+
+  * Initial version
+
+ -- Eric Esser <eric.esser@wzb.eu> Wed, 3 Feb 2016 17:11:42 + 0100
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+DEFAULT trueimage
+
+LABEL trueimage
+  MENU label Acronis True Image
+  KERNEL /trueimage/kernel.dat
+  APPEND initrd=/trueimage/ramdisk.dat vga=791 root=/dev/ram0 quiet splash--
+  
